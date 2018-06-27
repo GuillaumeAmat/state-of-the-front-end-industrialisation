@@ -12,6 +12,6 @@ export const fonts = {
 };
 
 export const sizes = {
-  text: '3.5rem',
+  text: '4rem',
   lineHeight: 1.4
 };
