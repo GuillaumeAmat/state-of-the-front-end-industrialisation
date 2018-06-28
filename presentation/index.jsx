@@ -41,7 +41,7 @@ export default class Presentation extends React.Component {
             caps
             lineHeight={1}
             textAlign="left"
-            textSize="10vh"
+            textSize="10vmin"
             textColor="secondary"
           >
             <Highlighted>

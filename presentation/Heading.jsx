@@ -6,6 +6,7 @@ import { sizes } from './const';
 export const Heading = styled(RawHeading)`
   && {
     margin-bottom: ${sizes.text};
+    font-size: ${p => p.textSize || sizes.heading2};
   }
 `;
 

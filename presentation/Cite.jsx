@@ -5,8 +5,8 @@ import { sizes } from './const';
 
 const Cite = styled(RawCite)`
   && {
-    font-size: ${sizes.text};
-    line-height: ${sizes.lineHeight};
+    font-size: ${p => p.textSize || sizes.text};
+    line-height: ${p => p.lineHeight || sizes.lineHeight};
   }
 `;
 

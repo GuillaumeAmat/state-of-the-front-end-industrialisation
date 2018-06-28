@@ -5,8 +5,8 @@ import { sizes } from './const';
 
 export const ListItem = styled(RawListItem)`
   && {
-    font-size: ${sizes.text};
-    line-height: ${sizes.lineHeight};
+    font-size: ${p => p.textSize || sizes.text};
+    line-height: ${p => p.lineHeight || sizes.lineHeight};
   }
 `;
 
